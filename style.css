@@ -12,7 +12,6 @@ body {
 }
 
 #lap {
-
   width: 560px;
   height: 619px;
   left: 0px;
@@ -25,7 +24,6 @@ body {
   height: 63px;
   left: 720px;
   top: 65px;
-  
 }
 ul {
   display: flex;
@@ -40,22 +38,21 @@ li {
   font-style: none;
 }
 
-a{
-    text-decoration: none;
-    
+a {
+  text-decoration: none;
 }
 
-a :hover{
-color:red;
-transition: cubic-bezier(1, 0, 0, 1),0.1s;
-scale: 1.23;
+a :hover {
+  color: red;
+  transition: cubic-bezier(1, 0, 0, 1), 0.1s;
+  scale: 1.23;
 }
 
 h1 {
   position: absolute;
   width: 870px;
   height: 184px;
-  left:350px;
+  left: 350px;
   top: 230px;
 
   font-style: normal;
@@ -71,9 +68,9 @@ span {
 
 #car {
   position: absolute;
-  object-fit: cover
-  width: 100px;
-  height: 140px;
+
+  width: 450px;
+  height: 160px;
   left: 650px;
   top: 460px;
 }
